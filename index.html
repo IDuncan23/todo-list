@@ -1,21 +1,35 @@
-<header>
-	<!-- TASK INPUT FIELD -->
-	<input type="text" placeholder="Enter activity..." id="item">
-	<button id="add">
-		<img width="15" src="images/add_icon.png">
-	</button>
-</header>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- SDD320 Final Project completed by Isaiah Duncan -->
+		<title>To-Do List App</title>
 
-<div class="container">
-	<!-- Uncompleted tasks -->
-	<ul class="todo" id="todo"></ul>
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="resources/css/reset.min.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+		<!-- Roboto font embed -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<!-- TASK INPUT FIELD -->
+			<input type="text" placeholder="Enter activity..." id="item">
+			<button id="add">
+				<img width="15" src="images/add_icon.png">
+			</button>
+		</header>
 
-	<!-- Completed tasks -->
-	<ul class="todo" id="completed"></ul>
-</div>
+		<div class="container">
+			<!-- Uncompleted tasks -->
+			<ul class="todo" id="todo"></ul>
 
-<div class="logout">
+			<!-- Completed tasks -->
+			<ul class="todo" id="completed"></ul>
+		</div>
 
-	<center><a href="resources/php/logout.php">Logout</a></center>
+		<!-- Javascripts -->
+		<script src="resources/js/main.js"></script>
 
-</div>
+	</body>
+</html>
